@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="javascripts/quiz.js"></script>
+  <title>Quiz de Banco de Dados</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .question {
+      margin-bottom: 10px;
+    }
+    
+    .btn-submit {
+      display: block;
+      margin-top: 20px;
+    }
+    
+    .result-message {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quiz de Banco de Dados</h1>
+  
+  <div class="question">
+    <p>1. Qual é o objetivo principal de um banco de dados?</p>
+    <input type="radio" name="q1" value="a"> a) Armazenar dados em um formato físico<br>
+    <input type="radio" name="q1" value="b"> b) Aumentar a velocidade de processamento de dados<br>
+    <input type="radio" name="q1" value="c"> c) Gerenciar e organizar dados de forma eficiente<br>
+    <input type="radio" name="q1" value="d"> d) Conectar aplicativos a servidores de rede<br>
+  </div>
+  
+  <div class="question">
+    <p>2. O que é uma chave primária em um banco de dados?</p>
+    <input type="radio" name="q2" value="a"> a) Um campo que contém valores únicos para identificar exclusivamente cada registro em uma tabela<br>
+    <input type="radio" name="q2" value="b"> b) Um campo que armazena dados textuais, como nomes ou descrições<br>
+    <input type="radio" name="q2" value="c"> c) Um campo que contém valores numéricos para fins de cálculo<br>
+    <input type="radio" name="q2" value="d"> d) Um campo que armazena informações sobre as relações entre tabelas<br>
+  </div>
+
+    <div class="question">
+    <p>3. O que é uma consulta em SQL?</p>
+    <input type="radio" name="q3" value="a"> a) Uma instrução para criar uma tabela no banco de dados<br>
+    <input type="radio" name="q3" value="b"> b) Uma ação para atualizar registros existentes em uma tabela<br>
+    <input type="radio" name="q3" value="c"> c) Uma solicitação para recuperar informações específicas de um banco de dados<br>
+    <input type="radio" name="q3" value="d"> d) Uma operação para excluir tabelas do banco de dados<br>
+  </div>
+
+    <div class="question">
+    <p>4. Qual é a diferença entre as cláusulas SQL "SELECT" e "UPDATE" em uma consulta de banco de dados?</p>
+    <input type="radio" name="q4" value="a"> a) A cláusula "SELECT" recupera dados do banco de dados, enquanto a cláusula "UPDATE" atualiza os dados existentes.<br>
+    <input type="radio" name="q4" value="b"> b) A cláusula "SELECT" insere novos dados no banco de dados, enquanto a cláusula "UPDATE" exclui dados existentes.<br>
+    <input type="radio" name="q4" value="c"> c) A cláusula "SELECT" cria uma nova tabela com base em uma consulta, enquanto a cláusula "UPDATE" exclui uma tabela.<br>
+    <input type="radio" name="q4" value="d"> d) A cláusula "SELECT" define as condições para uma consulta, enquanto a cláusula "UPDATE" cria novas tabelas no banco de dados.<br>
+  </div>
+
+    <div class="question">
+    <p>5. O que é uma cláusula "WHERE" em uma consulta SQL?</p>
+    <input type="radio" name="q5" value="a"> a) Uma cláusula usada para especificar as tabelas envolvidas na consulta.<br>
+    <input type="radio" name="q5" value="b"> b) Uma cláusula usada para agrupar os resultados da consulta em categorias.<br>
+    <input type="radio" name="q5" value="c"> c) Uma cláusula usada para ordenar os resultados da consulta em ordem ascendente ou descendente.<br>
+    <input type="radio" name="q5" value="d"> d) Uma cláusula usada para filtrar os resultados da consulta com base em uma condição específica.<br>
+  </div>
+  
+  <button class="btn-submit" onclick="checkAnswers()">Enviar Respostas</button>
+  
+  <div id="result" class="result-message"></div>
+  
+
+</body>
+</html>

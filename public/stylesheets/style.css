@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#tituloAbout {
+    text-align: center;
+}
+#boxes {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.divMembros {
+    float: left;
+    height: 470px;
+    flex: 33.33%;
+    width: 17%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.divMembros span {
+  display: flex;
+}
+
+body{
+  background-color: #e5e5e5;
+  font-family: 'Roboto';
+}
+
+h2{
+  margin-top: 8%;
+
+  color:#042c62;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color:#021631;
+  color: #fff;
+  position: fixed;
+  width: 100vw;
+  height: 15vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 60px 20px;
+ 
+}
+
+nav ul li a:hover {
+  background-color: 	#021631;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  
+}
+
+footer {
+  background-color: #021631;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2px 0;
+  height: 10vh;
+  margin: auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+#membrosImg {
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+ 
+}
+.divMembros{
+text-align: center;
+
+}
+.descricaoMembros{
+  display: grid;
+  justify-content: center;
+  color: #021631;
+}
+
+.descricaoMembross{
+  display: flex;
+  justify-content: center;
+  color: #021631;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
