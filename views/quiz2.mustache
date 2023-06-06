@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="javascripts/quiz2.js"></script>
+    <title>Aula 2 - Comandos básicos</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
+</head>
+<br><br><br><br><br><br><br>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg position-fixed">
+    <img class="logo" src="img/logo.png"  alt="logo">
+      <p class="info">Aprendendo Banco de Dados </p>
+      <a class="navbar-brand" href="/home">Página Inicial</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          
+            <a class="navbar-brand" href="/aulas">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="/about">Sobre</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <h1>Comandos básicos</h1>
+
+
+  <div class="question">
+    <p>1. Qual comando SQL é usado para criar uma nova tabela em um banco de dados?</p>
+    <input type="radio" name="q1" value="a"> a) INSERT<br>
+    <input type="radio" name="q1" value="b"> b) UPDATE<br>
+    <input type="radio" name="q1" value="c"> c) DELETE<br>
+    <input type="radio" name="q1" value="d"> d) CREATE<br>
+  </div>
+  
+  <div class="question">
+    <p>2. Qual comando SQL é usado para selecionar dados de uma tabela?</p>
+    <input type="radio" name="q2" value="a"> a) SELECT<br>
+    <input type="radio" name="q2" value="b"> b) WHERE<br>
+    <input type="radio" name="q2" value="c"> c) FROM<br>
+    <input type="radio" name="q2" value="d"> d) ORDER BY<br>
+  </div>
+
+  <div class="question">
+    <p>3. Qual comando SQL é usado para atualizar registros em uma tabela?</p>
+    <input type="radio" name="q3" value="a"> a) SELECT<br>
+    <input type="radio" name="q3" value="b"> b) INSERT<br>
+    <input type="radio" name="q3" value="c"> c) UPDATE<br>
+    <input type="radio" name="q3" value="d"> d) UPDATE<br>
+  </div>
+
+  <div class="question">
+    <p>4. Qual comando SQL é usado para excluir registros de uma tabela?</p>
+    <input type="radio" name="q4" value="a"> a) DELETE<br>
+    <input type="radio" name="q4" value="b"> b) DROP<br>
+    <input type="radio" name="q4" value="c"> c) TRUNCATE<br>
+    <input type="radio" name="q4" value="d"> d) REMOVE<br>
+  </div>
+
+  <div class="question">
+    <p>5. Qual comando SQL é usado para inserir novos registros em uma tabela?</p>
+    <input type="radio" name="q5" value="a"> a) INSERT<br>
+    <input type="radio" name="q5" value="b"> b) UPDATE<br>
+    <input type="radio" name="q5" value="c"> c) ADD<br>
+    <input type="radio" name="q5" value="d"> d) CREATE<br>
+  </div>
+
+  <div class="question">
+    <p>6. Qual comando SQL é usado para renomear uma tabela?</p>
+    <input type="radio" name="q6" value="a"> a) RENAME TABLE<br>
+    <input type="radio" name="q6" value="b"> b) ALTER TABLE<br>
+    <input type="radio" name="q6" value="c"> c) UPDATE TABLE<br>
+    <input type="radio" name="q6" value="d"> d) MODIFY TABLE<br>
+  </div>
+
+  <div class="question">
+    <p>7. Qual comando SQL é usado para criar uma chave primária em uma tabela?</p>
+    <input type="radio" name="q7" value="a"> a) PRIMARY KEY<br>
+    <input type="radio" name="q7" value="b"> b) FOREIGN KEY<br>
+    <input type="radio" name="q7" value="c"> c) UNIQUE KEY<br>
+    <input type="radio" name="q7" value="d"> d) INDEX<br>
+  </div>
+
+  <div class="question">
+    <p>8. Qual comando SQL é usado para adicionar uma nova coluna a uma tabela existente?</p>
+    <input type="radio" name="q8" value="a"> a) ALTER TABLE<br>
+    <input type="radio" name="q8" value="b"> b) MODIFY TABLE<br>
+    <input type="radio" name="q8" value="c"> c) ADD COLUMN<br>
+    <input type="radio" name="q8" value="d"> d) UPDATE TABLE<br>
+  </div>
+
+  <div class="question">
+    <p>9. Qual comando SQL é usado para realizar uma junção (join) entre duas tabelas?</p>
+    <input type="radio" name="q9" value="a"> a) UNION<br>
+    <input type="radio" name="q9" value="b"> b) JOIN<br>
+    <input type="radio" name="q9" value="c"> c) MERGE<br>
+    <input type="radio" name="q9" value="d"> d) COMBINE<br>
+  </div>
+
+  <div class="question">
+    <p>10. Qual comando SQL é usado para ordenar os resultados de uma consulta em ordem descendente?</p>
+    <input type="radio" name="q10" value="a"> a) ASC<br>
+    <input type="radio" name="q10" value="b"> b) DESC<br>
+    <input type="radio" name="q10" value="c"> c) ORDER BY<br>
+    <input type="radio" name="q10" value="d"> d) SORT BY<br>
+  </div>
+
+
+    <button class="btn-submit" onclick="checkAnswers()">Enviar Respostas</button>
+
+  <div id="result" class="result-message"></div>
+  
+  <footer class="mt-4">
+    <div class="container">
+    <br>
+      <p>&copy; 2023. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

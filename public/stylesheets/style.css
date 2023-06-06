@@ -1,42 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 #tituloAbout {
-    text-align: center;
+  text-align: center;
 }
 #boxes {
-    content: "";
-    clear: both;
-    display: flex;
+  content: "";
+  clear: both;
+  display: flex;
 }
 .divMembros {
-    float: left;
-    height: 470px;
-    flex: 33.33%;
-    width: 17%;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
+  float: left;
+  height: 470px;
+  flex: 33.33%;
+  width: 17%;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .divMembros span {
   display: flex;
 }
-
-body{
+body {
   background-color: #e5e5e5;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-h2{
+h2 {
   margin-top: 8%;
 
-  color:#042c62;
+  color: #042c62;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color:#021631;
+  background-color: #021631;
   color: #fff;
   position: fixed;
   width: 100vw;
@@ -63,18 +60,18 @@ nav ul li a {
   color: inherit;
   text-decoration: none;
   padding: 60px 20px;
- 
 }
-
+.navbar-brand {
+  margin-left: 5%;
+}
 nav ul li a:hover {
-  background-color: 	#021631;
+  background-color: #021631;
 }
 
-img{
+img {
   width: 200px;
   height: 200px;
   border-radius: 4px;
-  
 }
 
 footer {
@@ -97,43 +94,142 @@ footer {
 #membrosImg {
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
- 
 }
-.divMembros{
-text-align: center;
-
+.divMembros {
+  text-align: center;
 }
-.descricaoMembros{
+.descricaoMembros {
   display: grid;
   justify-content: center;
   color: #021631;
 }
 
-.descricaoMembross{
+.descricaoMembross {
   display: flex;
   justify-content: center;
   color: #021631;
   font-weight: 600;
 }
+.info {
+  margin-top: 2%;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1.6;
 
+  background-image: linear-gradient(to bottom, #042c62, steelblue, #e5e5e5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+#email {
+  display: flex;
+  justify-content: center;
+  color: #021631;
+}
+.card-title {
+  color: #042c62;
+}
+.card {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  display: grid;
+  margin-top: 5%;
+}
+.button-aula {
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  color: #042c62;
+  border: solid 1px #042c62;
+  width: 130px;
+  height: 35px;
+  border-radius: 0.9em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  :hover {
+    opacity: 0.8;
+  }
+}
+.button-quizz {
+  align-items: center;
+  justify-content: center;
+  margin-left: 40vw;
+  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
+  background-color: #042c62;
+  border: solid 1px #042c62;
+  width: 250px;
+  height: 40px;
+  border-radius: 0.9em;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  :hover {
+    opacity: 0.8;
+  }
+}
+.aula {
+  color: #042c62;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.quizname {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #e5e5e5;
+}
+.seta {
+  width: 20px;
+  height: 20px;
+}
 
+.container-aula {
+  display: grid;
+  position: relative;
+}
+.info-aula {
+  margin-top: 5%;
+}
 
+/*Pagina Quiz*/
 
+h1 {
+  text-align: center;
+}
 
+.question {
+  padding-bottom: 25px;
+  margin-left: 25px;
+}
 
+.btn-submit {
+  display: block;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #042c62;
+  color: #fff;
+  font-style: bold;
+}
 
+.btn-falha {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #042c62;
+  color: #fff;
+  font-style: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.result-message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}

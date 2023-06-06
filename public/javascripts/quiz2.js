@@ -14,27 +14,27 @@ function checkAnswers() {
   var q10 = document.querySelector('input[name="q10"]:checked');
 
   // Obtenha as respostas corretas
-  if (q1 && q1.value === "c") {
+  if (q1 && q1.value === "d") {
     correctAnswers++;
   }
 
-  if (q2 && q2.value === "c") {
+  if (q2 && q2.value === "a") {
     correctAnswers++;
   }
 
-  if (q3 && q3.value === "a") {
+  if (q3 && q3.value === "c") {
     correctAnswers++;
   }
 
-  if (q4 && q4.value === "c") {
+  if (q4 && q4.value === "a") {
     correctAnswers++;
   }
 
-  if (q5 && q5.value === "d") {
+  if (q5 && q5.value === "a") {
     correctAnswers++;
   }
 
-  if (q6 && q6.value === "a") {
+  if (q6 && q6.value === "b") {
     correctAnswers++;
   }
 
@@ -42,15 +42,15 @@ function checkAnswers() {
     correctAnswers++;
   }
 
-  if (q8 && q8.value === "b") {
+  if (q8 && q8.value === "c") {
     correctAnswers++;
   }
 
-  if (q9 && q9.value === "a") {
+  if (q9 && q9.value === "b") {
     correctAnswers++;
   }
 
-  if (q10 && q10.value === "a") {
+  if (q10 && q10.value === "b") {
     correctAnswers++;
   }
 
