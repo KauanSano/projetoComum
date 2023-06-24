@@ -4,7 +4,7 @@
   "description": "Projeto para a disciplina certificadora comum.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e mustache app.js",
+    "start": "nodemon app.js -e mustache,js,html,css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

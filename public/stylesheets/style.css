@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,600;1,100;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@400;700&display=swap");
 #tituloAbout {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #021631;
+  font-weight: 600;
+}
+.sobreInfo {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #021631;
 }
 #boxes {
   content: "";
@@ -19,9 +30,10 @@
 .divMembros span {
   display: flex;
 }
+
 body {
-  background-color: #e5e5e5;
-  font-family: "Roboto";
+  margin: 0;
+  font-family: "Noto-Sans", sans-serif;
 }
 
 h2 {
@@ -80,11 +92,24 @@ footer {
   text-align: center;
   width: 100%;
   bottom: 0;
+  flex-shrink: 0;
   left: 0;
   right: 0;
-  padding: 2px 0;
   height: 10vh;
   margin: auto;
+}
+.footer {
+  background-color: #021631;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  flex-shrink: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  margin: auto;
+  position: fixed;
 }
 
 .carousel-item img {
@@ -101,14 +126,15 @@ footer {
 .descricaoMembros {
   display: grid;
   justify-content: center;
-  color: #021631;
+  color: #032149;
 }
 
 .descricaoMembross {
   display: flex;
   justify-content: center;
-  color: #021631;
-  font-weight: 600;
+  color: #032149;
+  font-size: 20px;
+  font-weight: 700;
 }
 .info {
   margin-top: 2%;
@@ -232,4 +258,16 @@ h1 {
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
+}
+.sobre {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  color: #fff;
+  width: 100vw;
+  height: 62vh;
+  margin-top: 10%;
+  position: fixed;
+  box-shadow: 0 10px 40px #00000056;
 }
