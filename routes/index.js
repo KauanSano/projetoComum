@@ -26,6 +26,10 @@ router.get("/aula3/", (req, res) => {
   res.render("aula3");
 });
 
+router.get("/aula4/", (req, res) => {
+  res.render("aula4");
+});
+
 router.get("/aulateste", (req, res) => {
   res.render("aulaum");
 });

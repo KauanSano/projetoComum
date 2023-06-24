@@ -1,88 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
-    <title>Banco de Dados</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
+  <title>Banco de Dados</title>
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg position-fixed">
-    <img class="logo" src="img/logo.png"  alt="logo">
-      <p class="info">Aprendendo Banco de Dados </p>
-     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+      <img class="logo" src="img/logo.png" alt="logo">
+      <p class="info">Aprendendo Banco de Dados</p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-           <a class="navbar-brand" href="/home">Página Inicial</a>
-            
+            <a class="navbar-brand" href="/home">Página Inicial</a>
           </li>
-          <a class="navbar-brand" href="/aulas">Aulas</a>
+
+            <a class="navbar-brand" href="/aulas">Aulas</a>
+
           <li class="nav-item">
             <a class="navbar-brand" href="/about">Sobre</a>
           </li>
-
         </ul>
       </div>
     </nav>
   </header>
   <br><br><br><br>
   <div class="container">
-  <br>
+    <br>
     <h2 class="info-aula">Aulas Disponíveis</h2>
     <div class="container-aula">
       <div class="row">
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
+        <div class="col-sm-6 col-md-6">
+          <div class="card" style="width: 28rem; height: 27rem">
             <img src="img/bd1.jpeg" class="d-block w-100" alt="Imagem 1">
             <div class="card-body">
               <h5 class="card-title">Introdução a Banco de Dados</h5>
-              <p class="card-text">Um banco de dados é um sistema organizado de informações estruturadas que podem ser armazenadas, gerenciadas e acessadas de forma eficiente.</p>
-              <button class="button-aula"> <a class="aula" href="/aula1" >Aula Completa</a></button>
+              <p class="card-text">Um banco de dados é um sistema organizado de informações estruturadas que podem ser armazenadas, gerenciadas e acessadas de forma eficiente. São amplamente usados em diferentes setores.</p>
+              <button class="button-aula">
+                <a class="aula" href="/aula1">Aula Completa</a>
+              </button>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
+        <div class="col-sm-6 col-md-6">
+          <div class="card" style="width: 28rem; height: 27rem">
             <img src="img/aula2/1.jpg" class="d-block w-100" alt="Imagem 2">
             <div class="card-body">
               <h5 class="card-title">Introdução a MER</h5>
               <p class="card-text">Modelo Entidade-Relacionamento (MER) é uma abordagem de modelagem de dados que representa as entidades relevantes em um sistema, seus atributos e relacionamentos.</p>
-              <button class="button-aula"> <a class="aula" href="/aula2" >Aula Completa</a></button>
+              <button class="button-aula">
+                <a class="aula" href="/aula2">Aula Completa</a>
+              </button>
             </div>
           </div>
-          
         </div>
-                <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
+        <div class="col-sm-6 col-md-6">
+          <div class="card" style="width: 28rem; height: 27rem">
             <img src="img/aula3/1.jpg" class="d-block w-100" alt="Imagem 3">
             <div class="card-body">
               <h5 class="card-title">Modelo Relacional</h5>
               <p class="card-text">O modelo relacional é uma abordagem para o design de bancos de dados que organiza os dados em tabelas, com linhas representando registros e colunas representando atributos.</p>
-              <button class="button-aula"> <a class="aula" href="/aula3" >Aula Completa</a></button>
+              <button class="button-aula">
+                <a class="aula" href="/aula3">Aula Completa</a>
+              </button>
             </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="card" style="width: 28rem; height: 27rem">
+            <img src="img/aula4/1.jpg" class="d-block w-100" alt="Imagem 4">
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">SQL (Structured Query Language) é uma linguagem de consulta estruturada usada para gerenciar bancos de dados relacionais e executar operações neles. Com o intuito de incluir, excluir, alterar dados, etc.</p>
+              <button class="button-aula">
+                <a class="aula" href="/aula4">Aula Completa</a>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
   <footer class="mt-4">
     <div class="container">
+    <br>
       <p>&copy; 2023. Todos os direitos reservados.</p>
     </div>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
