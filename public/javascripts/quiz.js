@@ -50,7 +50,7 @@ function checkAnswers() {
     correctAnswers++;
   }
 
-  if (q10 && q10.value === "a") {
+  if (q10 && q10.value === "d") {
     correctAnswers++;
   }
 

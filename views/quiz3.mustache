@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="javascripts/quiz3.js"></script>
+    <title>Aula 3 - Modelo Relacional</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
+</head>
+<br><br><br><br><br><br><br>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg position-fixed">
+    <img class="logo" src="img/logo.png"  alt="logo">
+      <p class="info">Aprendendo Banco de Dados </p>
+      <a class="navbar-brand" href="/home">Página Inicial</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          
+            <a class="navbar-brand" href="/aulas">Aulas</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="/about">Sobre</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <h1>Modelo Relacional</h1>
+
+
+  <div class="question">
+    <p>1. O Modelo Relacional é baseado em qual estrutura fundamental?</p>
+    <input type="radio" name="q1" value="a"> a) Tabelas<br>
+    <input type="radio" name="q1" value="b"> b) Gráficos<br>
+    <input type="radio" name="q1" value="c"> c) Diagramas de fluxo.<br>
+    <input type="radio" name="q1" value="d"> d) Árvores<br>
+  </div>
+  
+  <div class="question">
+    <p>2. O que representa uma tupla em um modelo relacional?</p>
+    <input type="radio" name="q2" value="a"> a) Uma coluna em uma tabela.<br>
+    <input type="radio" name="q2" value="b"> b) Uma tabela completa.<br>
+    <input type="radio" name="q2" value="c"> c) Uma relação entre duas tabelas.<br>
+    <input type="radio" name="q2" value="d"> d) Uma linha em uma tabela.<br>
+  </div>
+
+  <div class="question">
+    <p>3. Qual termo é usado para descrever a relação entre duas tabelas no Modelo Relacional?</p>
+    <input type="radio" name="q3" value="a"> a) Chave primária.<br>
+    <input type="radio" name="q3" value="b"> b) Atributo composto.<br>
+    <input type="radio" name="q3" value="c"> c) Cardinalidade.<br>
+    <input type="radio" name="q3" value="d"> d) Chave estrangeira.<br>
+  </div>
+
+  <div class="question">
+    <p>4. Qual é a finalidade de uma chave primária em uma tabela relacional?</p>
+    <input type="radio" name="q4" value="a"> a) Identificar registros duplicados.<br>
+    <input type="radio" name="q4" value="b"> b) Estabelecer relacionamentos com outras tabelas.<br>
+    <input type="radio" name="q4" value="c"> c) Indexar os dados para acesso mais rápido.<br>
+    <input type="radio" name="q4" value="d"> d) Identificar exclusivamente cada registro na tabela.<br>
+  </div>
+
+  <div class="question">
+    <p>5. O que é uma chave estrangeira em um Modelo Relacional?</p>
+    <input type="radio" name="q5" value="a"> a) Uma chave composta formada por vários atributos.<br>
+    <input type="radio" name="q5" value="b"> b) Uma chave utilizada para acessar registros de outras tabelas.<br>
+    <input type="radio" name="q5" value="c"> c) Um atributo que pode conter valores nulos.<br>
+    <input type="radio" name="q5" value="d"> d) Uma coluna que identifica exclusivamente cada registro na tabela.<br>
+  </div>
+
+  <div class="question">
+    <p>6. Qual é a função do SQL (Structured Query Language) em um Modelo Relacional?</p>
+    <input type="radio" name="q6" value="a"> a) Criar tabelas e definir relacionamentos.<br>
+    <input type="radio" name="q6" value="b"> b) Inserir, atualizar e excluir dados nas tabelas.<br>
+    <input type="radio" name="q6" value="c"> c) Consultar e recuperar dados do banco de dados.<br>
+    <input type="radio" name="q6" value="d"> d) Todas as opções anteriores estão corretas.<br>
+  </div>
+
+  <div class="question">
+    <p>7. O que é uma consulta no contexto do Modelo Relacional?</p>
+    <input type="radio" name="q7" value="a"> a) Uma tabela temporária para armazenar resultados intermediários.<br>
+    <input type="radio" name="q7" value="b"> b) Uma instrução para definir a estrutura de uma tabela.<br>
+    <input type="radio" name="q7" value="c"> c) Uma operação para recuperar dados específicos de uma tabela.<br>
+    <input type="radio" name="q7" value="d"> d) Uma função matemática para calcular valores agregados.<br>
+  </div>
+
+  <div class="question">
+    <p>8. Qual é o objetivo da normalização em um Modelo Relacional?</p>
+    <input type="radio" name="q8" value="a"> a) Otimizar consultas e melhorar o desempenho.<br>
+    <input type="radio" name="q8" value="b"> b) Evitar redundância e inconsistência de dados.<br>
+    <input type="radio" name="q8" value="c"> c) Definir a estrutura das tabelas e atributos.<br>
+    <input type="radio" name="q8" value="d"> d) Criar índices para acesso rápido aos dados.<br>
+  </div>
+
+  <div class="question">
+    <p>9. O que é um índice em um Modelo Relacional?</p>
+    <input type="radio" name="q9" value="a"> a) Uma tabela temporária usada para armazenar resultados intermediários.<br>
+    <input type="radio" name="q9" value="b"> b) Um atributo que identifica exclusivamente cada registro na tabela.<br>
+    <input type="radio" name="q9" value="c"> c) Uma estrutura de dados que melhora a velocidade de busca e recuperação de dados.<br>
+    <input type="radio" name="q9" value="d"> d) Um relacionamento entre duas tabelas.<br>
+  </div>
+
+  <div class="question">
+    <p>10. Qual é a principal vantagem do Modelo Relacional em relação a outros modelos de dados?</p>
+    <input type="radio" name="q10" value="a"> a) Facilidade de compreensão e utilização.<br>
+    <input type="radio" name="q10" value="b"> b) Flexibilidade para armazenar diferentes tipos de dados.<br>
+    <input type="radio" name="q10" value="c"> c) Capacidade de processar consultas complexas de forma eficiente.<br>
+    <input type="radio" name="q10" value="d"> d) Todas as opções anteriores estão corretas.<br>
+  </div>
+
+
+    <button class="btn-submit" onclick="checkAnswers()">Enviar Respostas</button>
+
+  <div id="result" class="result-message"></div>
+  
+  <footer class="mt-4">
+    <div class="container">
+    <br>
+      <p>&copy; 2023. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

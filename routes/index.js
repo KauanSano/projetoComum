@@ -18,6 +18,18 @@ router.get("/aula1/", (req, res) => {
   res.render("aula1");
 });
 
+router.get("/aula2/", (req, res) => {
+  res.render("aula2");
+});
+
+router.get("/aula3/", (req, res) => {
+  res.render("aula3");
+});
+
+router.get("/aula4/", (req, res) => {
+  res.render("aula4");
+});
+
 router.get("/aulateste", (req, res) => {
   res.render("aulaum");
 });
